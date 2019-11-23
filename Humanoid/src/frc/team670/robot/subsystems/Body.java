@@ -7,9 +7,6 @@
 
 package frc.team670.robot.subsystems;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import com.pi4j.io.gpio.GpioController;
 import com.pi4j.io.gpio.GpioFactory;
@@ -18,7 +15,6 @@ import com.pi4j.io.gpio.RaspiPin;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import frc.team670.pi.Motor;
 import frc.team670.pi.sensors.Encoder;
-import frc.team670.robot.commands.drive.TimeDrive;
 import jpigpio.PigpioException;
 
 /**
@@ -26,7 +22,7 @@ import jpigpio.PigpioException;
  * 
  * @author lakshbhambhani, ctychen
  */
-public class DriveBase extends Subsystem {
+public class Body extends Subsystem {
 
 	private static int MOTOR_1_PIN_A = 4;
 	private static int MOTOR_1_PIN_B = 5;
@@ -41,9 +37,9 @@ public class DriveBase extends Subsystem {
 	double leftSpeed;
 	double rightSpeed;
 
-	public DriveBase() {
+	public Body() {
 		// get a handle to the GPIO controller
-		final GpioController gpio = GpioFactory.getInstance();
+		//final GpioController gpio = GpioFactory.getInstance();
 		// initialize your motors
 		left = new Motor(MOTOR_1_PIN_A, MOTOR_1_PIN_B, RaspiPin.GPIO_06);
 		right = new Motor(MOTOR_2_PIN_A, MOTOR_2_PIN_B, RaspiPin.GPIO_03);

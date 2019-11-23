@@ -8,11 +8,12 @@
 package frc.team670.robot;
 
 import edu.wpi.first.wpilibj.TimedRobot;
-import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
-import frc.team670.robot.commands.drive.*;
-import frc.team670.robot.subsystems.DriveBase;
+import frc.team670.robot.subsystems.Body;
 import frc.team670.robot.utils.Logger;
+
+import frc.team670.robot.subsystems.Leg;
+import frc.team670.robot.subsystems.Hand;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -24,12 +25,17 @@ import frc.team670.robot.utils.Logger;
 public class Humanoid extends TimedRobot {
   public static OI oi;
   
-  public static DriveBase driveBase = new DriveBase();
+  public static Leg rightLeg = new Leg();
+  public static Leg leftLeg = new Leg();
+
+  public static Hand leftHand = new Hand();
+  public static Hand rightHand = new Hand();
  
 
 //  private Command autonomousCommand, operatorControl;
   
   public Humanoid() {
+
   }
 
   /**
