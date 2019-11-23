@@ -6,7 +6,7 @@ import com.pi4j.io.gpio.RaspiPin;
 
 import edu.wpi.first.wpilibj.command.Subsystem;
 
-public class Hand{
+public class Hand extends Subsystem{
 	
 	private boolean isOpen;
 

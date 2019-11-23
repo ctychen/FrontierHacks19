@@ -6,6 +6,8 @@ public class Elbow extends Subsystem {
 	
 	private double angle;
 	
+
+
 	public Elbow() {
 
 	}
@@ -14,7 +16,17 @@ public class Elbow extends Subsystem {
 
 	}
 	
-	public double getAngleDegrees(){
+	public double getAngleDegrees() {
 		return this.angle;
 	}
+	
+	
+//	public double getForwardSoftLimitAngle(){
+//
+//	}
+//
+//	public double getReverseSoftLimitAngle()
+//	{
+//		
+//	}
 }

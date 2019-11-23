@@ -8,5 +8,9 @@ public class Ankle {
         
     }
 
+    public void initDefaultCommand() {
+		
+	}
+
 
 }

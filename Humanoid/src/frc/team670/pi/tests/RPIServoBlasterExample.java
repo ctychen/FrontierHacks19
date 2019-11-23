@@ -9,8 +9,9 @@ import com.pi4j.component.servo.impl.RPIServoBlasterProvider;
 public class RPIServoBlasterExample {
 
     public static void main(String[] args) throws Exception {
+    	System.out.println("Starting...");
         ServoProvider servoProvider = new RPIServoBlasterProvider();
-        ServoDriver servo7 = servoProvider.getServoDriver(servoProvider.getDefinedServoPins().get(7));
+        ServoDriver servo7 = servoProvider.getServoDriver(servoProvider.getDefinedServoPins().get(6));
         long start = System.currentTimeMillis();
 
         while (System.currentTimeMillis() - start < 120000) { // 2 minutes

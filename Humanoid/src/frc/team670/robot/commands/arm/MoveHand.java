@@ -6,12 +6,12 @@ import frc.team670.robot.utils.MathUtils;
 
 public class MoveHand extends Command {
 
-    private Hand Hand;
+    private Hand hand;
     private double target;
     private static final double DEGREE_TOLERANCE = 2;
 
-    public MoveHand(Hand Hand, double targetDegrees) {
-        this.Hand = Hand;
+    public MoveHand(Hand hand, double targetDegrees) {
+    	this.hand = hand;
         this.target = targetDegrees;
         requires(hand);
 
@@ -28,7 +28,8 @@ public class MoveHand extends Command {
     
     protected boolean isFinished() {
         // angle that the Hand servo's at is close enough to the target
-        return MathUtils.isWithinTolerance(hand.getAngleDegrees(), target, DEGREE_TOLERANCE);
+    	return false;
+        //return MathUtils.isWithinTolerance(hand.getAngleDegrees(), target, DEGREE_TOLERANCE);
     }
 
     protected void end() {
