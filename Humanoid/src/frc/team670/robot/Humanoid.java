@@ -12,8 +12,8 @@ import edu.wpi.first.wpilibj.command.Scheduler;
 import frc.team670.robot.subsystems.Body;
 import frc.team670.robot.utils.Logger;
 
-import frc.team670.robot.subsystems.Leg;
-import frc.team670.robot.subsystems.Hand;
+import frc.team670.robot.subsystems.arm.*;
+import frc.team670.robot.subsystems.leg.*;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -24,12 +24,26 @@ import frc.team670.robot.subsystems.Hand;
  */
 public class Humanoid extends TimedRobot {
   public static OI oi;
-  
-  public static Leg rightLeg = new Leg();
-  public static Leg leftLeg = new Leg();
 
   public static Hand leftHand = new Hand();
   public static Hand rightHand = new Hand();
+  public static Wrist leftWrist = new Wrist();
+  public static Wrist rightWrist = new Wrist();
+  public static Elbow leftElbow = new Elbow();
+  public static Elbow rightElbow = new Elbow();
+  public static Shoulder leftShoulder = new Shoulder();
+  public static Shoulder rightShoulder = new Shoulder();
+  public static Ankle leftAnkle = new Ankle();
+  public static Ankle rightAnkle = new Ankle();
+  public static Knee leftKnee = new Knee();
+  public static Knee rightKnee = new Knee();
+  public static Hip leftHip = new Hip();
+  public static Hip rightHip = new Hip();
+  
+  public static Arm leftArm = new Arm(leftShoulder, leftElbow, leftWrist, leftHand);
+  public static Arm rightArm = new Arm(rightShoulder, rightElbow, rightWrist, rightHand);
+  public static Leg leftLeg = new Leg(leftHip, leftKnee, leftAnkle);
+  public static Leg rightLeg = new Leg(rightHip, rightKnee, rightAnkle);
  
 
 //  private Command autonomousCommand, operatorControl;
