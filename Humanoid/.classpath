@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="pi4j-core.jar"/>
 	<classpathentry kind="lib" path="MiniLib.jar"/>
+	<classpathentry kind="lib" path="pi4j-device.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
