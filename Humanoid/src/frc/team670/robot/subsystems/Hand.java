@@ -8,4 +8,14 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 
 public class Hand{
 
+	public Body() {
+		// get a handle to the GPIO controller
+		//final GpioController gpio = GpioFactory.getInstance();
+		// initialize your motors
+		
+	}
+
+
+
+	
 }
