@@ -13,6 +13,15 @@ public class MathUtils {
 	}
 	
 	public static double convertInchesToEncoderTicks(double inches) {
-		return inches*(RobotConstants.ENCODER_TICKS_PER_ROTATION/(Math.PI*RobotConstants.DRIVE_BASE_WHEEL_DIAMETER));
+		return inches
+				* (RobotConstants.ENCODER_TICKS_PER_ROTATION / (Math.PI * RobotConstants.DRIVE_BASE_WHEEL_DIAMETER));
 	}
+	
+    /**
+     * Returns true if the value is within +/- tolerance of target
+     * @param tolerance The tolerance (must be positive)
+     */
+    public static boolean isWithinTolerance(double value, double target, double tolerance) {
+        return (value > target - tolerance && value < target + tolerance);
+    }
 }

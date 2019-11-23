@@ -5,8 +5,12 @@ public class Hip {
     private double angle;
 
     public Hip() {
-        
+
     }
+
+    public void initDefaultCommand() {
+		
+	}
 
 
 }

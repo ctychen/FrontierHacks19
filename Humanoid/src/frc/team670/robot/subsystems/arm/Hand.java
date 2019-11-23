@@ -17,7 +17,9 @@ public class Hand{
 		
 	}
 
-
+	public void initDefaultCommand() {
+		
+	}
 
 	
 }

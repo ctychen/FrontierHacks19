@@ -8,5 +8,8 @@ public class Knee {
         
     }
 
+    public void initDefaultCommand() {
+		
+	}
 
 }

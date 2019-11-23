@@ -14,6 +14,20 @@ public class Arm {
         this.wrist = wrist;
         this.hand = hand;
     }
-    
 
+    public Shoulder getShoulder() {
+        return shoulder;
+    }
+
+    public Elbow getElbow() {
+        return elbow;
+    }
+    
+    public Wrist getWrist() {
+        return wrist;
+    }
+
+    public Hand getHand(){
+        return hand;
+    }
 }

@@ -18,7 +18,7 @@ import frc.team670.robot.subsystems.leg.*;
 /**
  * The VM is configured to automatically run this class, and to call the
  * functions corresponding to each mode, as described in the TimedRobot
- * documentation. If you change the name of this class or the package after
+ * documentation. If you change the name  of this class or the package after
  * creating this project, you must also update the build.gradle file in the
  * project.
  */
@@ -31,7 +31,7 @@ public class Humanoid extends TimedRobot {
   public static Wrist rightWrist = new Wrist();
   public static Elbow leftElbow = new Elbow();
   public static Elbow rightElbow = new Elbow();
-  public static Shoulder leftShoulder = new Shoulder();
+  public static Shoulder leftShoulder = new Shoulder(); 
   public static Shoulder rightShoulder = new Shoulder();
   public static Ankle leftAnkle = new Ankle();
   public static Ankle rightAnkle = new Ankle();

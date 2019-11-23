@@ -1,10 +1,20 @@
 package frc.team670.robot.subsystems.arm;
 
-public class Elbow{
+import edu.wpi.first.wpilibj.command.Subsystem;
+
+public class Elbow extends Subsystem {
 	
 	private double angle;
 	
 	public Elbow() {
-		
+
+	}
+	
+	public void initDefaultCommand() {
+
+	}
+	
+	public double getAngleDegrees(){
+		return this.angle;
 	}
 }

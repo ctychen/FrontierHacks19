@@ -1,5 +1,5 @@
-package frc.team670.robot.commands;
+package frc.team670.robot.commands.leg;
 
-public class Walk{
+public class MoveLeg{
     
 }
