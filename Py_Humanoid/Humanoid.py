@@ -13,6 +13,20 @@ rightKnee  = Subsystem(9)
 leftThigh = Subsystem(6)
 rightThigh = Subsystem(10)
 
+leftShoulder = Subsystem(13)
+rightShoulder = Subsystem(15)
+
+leftElbow = Subsystem(12)
+rightElbow = Subsystem(14)
+
+leftWrist = Subsystem(0)
+rightWrist = Subsystem(2)
+
+leftHand = Subsystem(3)
+rightHand = Subsystem(1)
+
+
+
 class Humanoid():
 
     def stand(self):
@@ -112,6 +126,8 @@ class Humanoid():
         rightAnkle.rotateTo(100)  #R ANKLE
         rightKnee.rotateTo(100)   #R KNEE
         rightThigh.rotateTo(100) #R HIP
+
+    def 
 
     
 
