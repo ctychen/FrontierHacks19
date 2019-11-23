@@ -46,7 +46,6 @@ public class Humanoid extends TimedRobot {
   public void robotInit() {
     // auton_chooser.addDefault("Default Auto", new TimeDrive());
     // chooser.addObject("My Auto", new MyAutoCommand());
-
     
     oi = new OI();
 
@@ -59,7 +58,6 @@ public class Humanoid extends TimedRobot {
     Logger.consoleLog();
 
     // The command we want to test goes here
-    Scheduler.getInstance().add(new PIDDistanceDrive(10));
    // Scheduler.getInstance().add(new DistanceDrive(10, 1.0));
   }
 
