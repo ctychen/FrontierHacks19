@@ -195,8 +195,8 @@ class Humanoid():
 # arms home
 
     def armHome(self):
-        rightWrist.rotateTo(75)
-        leftWrist.rotateTo(75)
+        rightWrist.rotateTo(100)
+        leftWrist.rotateTo(100)
         rightElbow.rotateTo(160)
         leftElbow.rotateTo(180)
         rightShoulder.rotateTo(0)
