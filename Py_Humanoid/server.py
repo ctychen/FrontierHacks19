@@ -166,7 +166,7 @@ def action1(action1):
       return message + ' started'
 
 # right claw
-       elif action1 == "openRightClaw":
+   elif action1 == "openRightClaw":
       message = "openRightClaw"
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
