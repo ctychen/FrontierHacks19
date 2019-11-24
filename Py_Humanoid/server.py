@@ -30,8 +30,8 @@ def turnRight():
 def stand():
    humanoid.stand()
 
-def bend():
-   humanoid.bend()
+def waveLeft():
+   humanoid.waveLeft()
 
 
 
@@ -61,7 +61,7 @@ def action1(action1):
       return message + ' started' 
    elif action1 == "bend":
       message = "bend"
-      thread = threading.Thread(target=bend)
+      thread = threading.Thread(target=waveLeft)
       thread.start()
       return message + ' started' 
    else:

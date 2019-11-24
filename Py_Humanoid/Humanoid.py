@@ -127,7 +127,13 @@ class Humanoid():
         rightKnee.rotateTo(100)   #R KNEE
         rightThigh.rotateTo(100) #R HIP
 
-    def 
+    def waveLeft(self):
+        leftShoulder.rotateTo()
+        leftElbow.rotateTo()
+        leftWrist.rotateTo()
+        leftHand.rotateTo()
+
+    
 
     
 
