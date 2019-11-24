@@ -241,19 +241,19 @@ class Humanoid():
      #16 times one hand out and other hand going out and in
 
         leftShoulder.rotateTo(0)
-        time.sleep(0.5)
+        time.sleep(0.55)
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
 
-        time.sleep(0.5)
+        time.sleep(0.55)
 
         leftElbow.rotateTo(160)
         rightShoulder.rotateTo(180)
-        time.sleep(0.5)
+        time.sleep(0.55)
         rightShoulder.rotateTo(70)
         rightElbow.rotateTo(50)
 
-        time.sleep(0.5)
+        time.sleep(0.55)
 
         rightElbow.rotateTo(160)
         leftShoulder.rotateTo(0)
@@ -261,15 +261,15 @@ class Humanoid():
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
 
-        time.sleep(0.5)
+        time.sleep(0.55)
 
         leftElbow.rotateTo(160)
         rightShoulder.rotateTo(180)
-        time.sleep(0.5)
+        time.sleep(0.55)
         rightShoulder.rotateTo(70)
         rightElbow.rotateTo(50)
 
-        time.sleep(0.5)
+        time.sleep(0.55)
 
         rightElbow.rotateTo(160)
         leftShoulder.rotateTo(0)
@@ -277,7 +277,7 @@ class Humanoid():
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
 
-        time.sleep(0.5)
+        time.sleep(0.55)
 
         leftElbow.rotateTo(160)
         rightShoulder.rotateTo(180)
@@ -285,23 +285,105 @@ class Humanoid():
         rightShoulder.rotateTo(70)
         rightElbow.rotateTo(50)
 
-        time.sleep(0.5)
+        time.sleep(0.55)
 
         rightElbow.rotateTo(160)
         leftShoulder.rotateTo(0)
-        time.sleep(0.5)
+        time.sleep(0.55)
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
 
-        time.sleep(0.5)
+        time.sleep(0.55)
 
         leftElbow.rotateTo(160)
         rightShoulder.rotateTo(180)
-        time.sleep(0.5)
+        time.sleep(0.55)
         rightShoulder.rotateTo(70)
         rightElbow.rotateTo(50)
 
-        time.sleep(0.5)
+        time.sleep(0.55)
+
+    # 2nd step
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
+
+        leftElbow.rotateTo(50)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        time.sleep(0.275)
 
 
         
