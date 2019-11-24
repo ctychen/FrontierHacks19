@@ -32,10 +32,10 @@ class Humanoid():
     def stand(self):
         leftAnkle.rotateTo(100)   #L ANKLE
         leftKnee.rotateTo(120)   #L KNEE
-        leftThigh.rotateTo(145)   #L HIP
+        leftThigh.rotateTo(125)   #L HIP
         rightAnkle.rotateTo(100)  #R ANKLE
         rightKnee.rotateTo(100)   #R KNEE
-        rightThigh.rotateTo(75) #R HIP
+        rightThigh.rotateTo(95) #R HIP
         print('standing')
 
     def walkForward(self):
