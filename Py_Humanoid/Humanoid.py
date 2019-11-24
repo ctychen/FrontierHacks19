@@ -140,7 +140,7 @@ class Humanoid():
         leftHand.rotateTo(150)
 
     def closeLeftClaw(self):
-        leftHand.rotateTo(0)
+        leftHand.rotateTo(20)
 
     def turnLeftWristRight(self):
         leftWrist.rotateTo(100)
@@ -187,10 +187,20 @@ class Humanoid():
         rightShoulder.rotateTo(180)
 
     def midRaiseRightShoulder(self):
-        rightShoulder.rotateTo(60)
+        rightShoulder.rotateTo(70)
 
     def lowerRightShoulder(self):
         rightShoulder.rotateTo(0)
+
+# arms home
+
+    def armHome(self):
+        rightWrist.rotateTo(50)
+        leftWrist.rotateTo(50)
+        rightElbow.rotateTo(50)
+        leftElbow.rotateTo(50)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(0)
 
     
 
