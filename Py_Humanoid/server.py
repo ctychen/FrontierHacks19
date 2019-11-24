@@ -33,60 +33,60 @@ def stand():
 #arm motion
 
 def openLeftClaw():
-   humanoid.openLeftClaw(150)
+   humanoid.openLeftClaw()
 
-def closeLeftClawLeft():
-   humanoid.closeLeftClaw(0)
+def closeLeftClaw():
+   humanoid.closeLeftClaw()
 
 def turnLeftWristRight():
-   humanoid.turnLeftWristRight(50)
+   humanoid.turnLeftWristRight()
 
 def turnLeftWristLeft():
-   humanoid.turnLeftWristLeft(100)
+   humanoid.turnLeftWristLeft()
 
 def openLeftElbow():
-   humanoid.openLeftElbow(160)
+   humanoid.openLeftElbow()
 
 def closeLeftElbow():
-   humanoid.closeLeftElbow(50)
+   humanoid.closeLeftElbow()
 
 def raiseLeftShoulder():
-   humanoid.raiseLeftShoulder(180)
+   humanoid.raiseLeftShoulder()
 
 def midRaiseLeftShoulder():
-   humanoid.midRaiseLeftShoulder(60)
+   humanoid.midRaiseLeftShoulder()
 
 def lowerLeftShoulder():
-   humanoid.lowerLeftShoulder(0)
+   humanoid.lowerLeftShoulder()
 
 #Right side
     
 def openRightClaw():
-   humanoid.openRightClaw(150)
+   humanoid.openRightClaw()
 
 def closeRightClawLeft():
-   humanoid.closeRightClawLeft(0)
+   humanoid.closeRightClawLeft()
 
 def turnRightWristRight():
-   humanoid.turnRightWristRight(50)
+   humanoid.turnRightWristRight()
 
 def turnRightWristLeft():
-   humanoid.turnRightWristLeft(100)
+   humanoid.turnRightWristLeft()
 
 def openRightElbow():
-   humanoid.openRightElbow(160)
+   humanoid.openRightElbow()
 
 def closeRightElbow():
-   humanoid.closeRightElbow(50)
+   humanoid.closeRightElbow()
 
 def raiseRightShoulder():
-   humanoid.raiseRightShoulder(180)
+   humanoid.raiseRightShoulder()
 
 def midRaiseRightShoulder():
-   humanoid.midRaiseRightShoulder(60)
+   humanoid.midRaiseRightShoulder()
 
 def lowerRightShoulder():
-   humanoid.lowerRightShoulder(0)
+   humanoid.lowerRightShoulder()
 
 
 
@@ -114,9 +114,9 @@ def action1(action1):
       thread = threading.Thread(target=stand)
       thread.start()
       return message + ' started' 
-   elif action1 == "waveLeft":
-      message = "waveLeft"
-      thread = threading.Thread(target=waveLeft)
+   elif action1 == "openLeftClaw":
+      message = "openLeftClaw"
+      thread = threading.Thread(target=openLeftClaw)
       thread.start()
       return message + ' started' 
    else:

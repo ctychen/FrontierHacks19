@@ -136,7 +136,7 @@ class Humanoid():
     def openLeftClaw(self):
         leftHand.rotateTo(150)
 
-    def closeLeftClawLeft(self):
+    def closeLeftClaw(self):
         leftHand.rotateTo(0)
 
     def turnLeftWristRight(self):
@@ -160,7 +160,7 @@ class Humanoid():
     def lowerLeftShoulder(self):
         leftShoulder.rotateTo(0)
 
-#Right side
+# Right side
     
     def openRightClaw(self):
         rightHand.rotateTo(150)
