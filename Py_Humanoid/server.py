@@ -215,19 +215,12 @@ def action1(action1):
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
       return message + ' started'
-
-
-
-
-
    else:
       message = ""
 
    templateData = {
       'message' : message,
    }
-
-  
 
 if __name__ == "__main__":
    app.run(host='0.0.0.0', port=80, debug=True)
