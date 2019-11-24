@@ -247,6 +247,7 @@ class Humanoid():
 
         time.sleep(0.5)
 
+        leftElbow.rotateTo(160)
         rightShoulder.rotateTo(180)
         time.sleep(0.5)
         rightShoulder.rotateTo(70)
@@ -254,6 +255,7 @@ class Humanoid():
 
         time.sleep(0.5)
 
+        rightElbow.rotateTo(160)
         leftShoulder.rotateTo(0)
         time.sleep(0.2)
         leftShoulder.rotateTo(60)
@@ -261,6 +263,7 @@ class Humanoid():
 
         time.sleep(0.5)
 
+        leftElbow.rotateTo(160)
         rightShoulder.rotateTo(180)
         time.sleep(0.5)
         rightShoulder.rotateTo(70)
@@ -268,7 +271,7 @@ class Humanoid():
 
         time.sleep(0.5)
 
-
+        rightElbow.rotateTo(160)
         leftShoulder.rotateTo(0)
         time.sleep(0.5)
         leftShoulder.rotateTo(60)
@@ -276,6 +279,7 @@ class Humanoid():
 
         time.sleep(0.5)
 
+        leftElbow.rotateTo(160)
         rightShoulder.rotateTo(180)
         time.sleep(0.5)
         rightShoulder.rotateTo(70)
@@ -283,6 +287,7 @@ class Humanoid():
 
         time.sleep(0.5)
 
+        rightElbow.rotateTo(160)
         leftShoulder.rotateTo(0)
         time.sleep(0.5)
         leftShoulder.rotateTo(60)
@@ -290,6 +295,7 @@ class Humanoid():
 
         time.sleep(0.5)
 
+        leftElbow.rotateTo(160)
         rightShoulder.rotateTo(180)
         time.sleep(0.5)
         rightShoulder.rotateTo(70)
