@@ -133,6 +133,14 @@ class Humanoid():
         leftWrist.rotateTo(100)
         leftHand.rotateTo(150)
 
+    def openLeftClaw(self):
+        leftHand.rotateTo(150)
+
+    def closeLeftClaw(self):
+        leftHand.rotateTo(0)
+
+    
+
     
 
     
