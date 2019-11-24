@@ -30,8 +30,63 @@ def turnRight():
 def stand():
    humanoid.stand()
 
-def waveLeft():
-   humanoid.waveLeft()
+#arm motion
+
+def openLeftClaw():
+   humanoid.openLeftClaw(150)
+
+def closeLeftClawLeft():
+   humanoid.closeLeftClaw(0)
+
+def turnLeftWristRight():
+   humanoid.turnLeftWristRight(50)
+
+def turnLeftWristLeft():
+   humanoid.turnLeftWristLeft(100)
+
+def openLeftElbow():
+   humanoid.openLeftElbow(160)
+
+def closeLeftElbow():
+   humanoid.closeLeftElbow(50)
+
+def raiseLeftShoulder():
+   humanoid.raiseLeftShoulder(180)
+
+def midRaiseLeftShoulder():
+   humanoid.midRaiseLeftShoulder(60)
+
+def lowerLeftShoulder():
+   humanoid.lowerLeftShoulder(0)
+
+#Right side
+    
+def openRightClaw():
+   humanoid.openRightClaw(150)
+
+def closeRightClawLeft():
+   humanoid.closeRightClawLeft(0)
+
+def turnRightWristRight():
+   humanoid.turnRightWristRight(50)
+
+def turnRightWristLeft():
+   humanoid.turnRightWristLeft(100)
+
+def openRightElbow():
+   humanoid.openRightElbow(160)
+
+def closeRightElbow():
+   humanoid.closeRightElbow(50)
+
+def raiseRightShoulder():
+   humanoid.raiseRightShoulder(180)
+
+def midRaiseRightShoulder():
+   humanoid.midRaiseRightShoulder(60)
+
+def lowerRightShoulder():
+   humanoid.lowerRightShoulder(0)
 
 
 

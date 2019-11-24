@@ -61,9 +61,9 @@ class Humanoid():
 
         time.sleep(0.25)
 
-        leftThigh.rotateTo(100)   #L ANKLE
+        leftThigh.rotateTo(110)   #L ANKLE
         leftKnee.rotateTo(100)  #L ANKLE
-        rightThigh.rotateTo(90)   #L ANKLE
+        rightThigh.rotateTo(80)   #L ANKLE
         rightKnee.rotateTo(90)   #L ANKLE
 
         time.sleep(0.25)
@@ -102,7 +102,7 @@ class Humanoid():
         leftThigh.rotateTo(85)
         leftKnee.rotateTo(85)
         rightThigh.rotateTo(145)
-        rightKnee.rotate(145)
+        rightKnee.rotateTo(145)
 
     def turnRight(self):
         leftAnkle.rotateTo(130)   #L ANKLE
@@ -136,8 +136,60 @@ class Humanoid():
     def openLeftClaw(self):
         leftHand.rotateTo(150)
 
-    def closeLeftClaw(self):
+    def closeLeftClawLeft(self):
         leftHand.rotateTo(0)
+
+    def turnLeftWristRight(self):
+        leftWrist.rotateTo(50)
+
+    def turnLeftWristLeft(self):
+        leftWrist.rotateTo(100)
+
+    def openLeftElbow(self):
+        leftElbow.rotateTo(160)
+
+    def closeLeftElbow(self):
+        leftElbow.rotateTo(50)
+
+    def raiseLeftShoulder(self):
+        leftShoulder.rotateTo(180)
+
+    def midRaiseLeftShoulder(self):
+        leftShoulder.rotateTo(60)
+
+    def lowerLeftShoulder(self):
+        leftShoulder.rotateTo(0)
+
+#Right side
+    
+    def openRightClaw(self):
+        rightHand.rotateTo(150)
+
+    def closeRightClawLeft(self):
+        rightHand.rotateTo(0)
+
+    def turnRightWristRight(self):
+        rightWrist.rotateTo(50)
+
+    def turnRightWristLeft(self):
+        rightWrist.rotateTo(100)
+
+    def openRightElbow(self):
+        rightElbow.rotateTo(160)
+
+    def closeRightElbow(self):
+        rightElbow.rotateTo(50)
+
+    def raiseRightShoulder(self):
+        rightShoulder.rotateTo(180)
+
+    def midRaiseRightShoulder(self):
+        rightShoulder.rotateTo(60)
+
+    def lowerRightShoulder(self):
+        rightShoulder.rotateTo(0)
+    ``
+
 
     
 
