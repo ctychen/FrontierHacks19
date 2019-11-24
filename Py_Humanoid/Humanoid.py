@@ -550,6 +550,42 @@ class Humanoid():
 
         time.sleep(0.55)
 
+        rightElbow.rotateTo(160)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.2)
+
+        rightElbow.rotateTo(50)
+        leftElbow.rotateTo(50)
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(70)
+
+        time.sleep(0.275)
+
+        rightElbow.rotateTo(160)
+        leftElbow.rotateTo(160)
+        rightShoulder.rotateTo(180)
+        leftShoulder.rotateTo(0)
+
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(180)
+        leftShoulder.rotateTo(0)
+        rightElbow.rotateTo(55)
+        leftElbow.rotateTo(55)
+        rightWrist.rotateTo(100)
+        leftWrist.rotateTo(50)
+
+        time.sleep(0.5)
+
+        rightWrist.rotateTo(100)
+        leftWrist.rotateTo(100)
+        rightElbow.rotateTo(160)
+        leftElbow.rotateTo(180)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(180)
+
+        time.sleep(0.5)
 
 
 
