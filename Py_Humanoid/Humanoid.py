@@ -198,7 +198,7 @@ class Humanoid():
         rightWrist.rotateTo(50)
         leftWrist.rotateTo(50)
         rightElbow.rotateTo(160)
-        leftElbow.rotateTo(160)
+        leftElbow.rotateTo(170)
         rightShoulder.rotateTo(0)
         leftShoulder.rotateTo(180)
 
