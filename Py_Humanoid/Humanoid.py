@@ -108,8 +108,8 @@ class Humanoid():
         rightKnee.rotateTo(145)
 
     def turnRight(self):
-        leftAnkle.rotateTo(130)   #L ANKLE
-        rightAnkle.rotateTo(130)   #L ANKLE
+        leftAnkle.rotateTo(120)   #L ANKLE
+        rightAnkle.rotateTo(120)   #L ANKLE
 
         time.sleep(0.25)
 
@@ -137,7 +137,7 @@ class Humanoid():
         leftHand.rotateTo(150)
 
     def openLeftClaw(self):
-        leftHand.rotateTo(150)
+        leftHand.rotateTo(100)
 
     def closeLeftClaw(self):
         leftHand.rotateTo(20)
@@ -166,7 +166,7 @@ class Humanoid():
 # Right side
     
     def openRightClaw(self):
-        rightHand.rotateTo(150)
+        rightHand.rotateTo(100)
 
     def closeRightClaw(self):
         rightHand.rotateTo(0)
