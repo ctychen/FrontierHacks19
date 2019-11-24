@@ -2,7 +2,7 @@
 title: "FrontierHacks19: Humanoid" 
 email: ctianyich@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-A versatile platform which can be modified for anything from programming education to search and rescue
+"A versatile platform which can be modified for anything from programming education to search and rescue"
 baseurl: "https://ctychen.github.io/FrontierHacks19" 
 url: "https://ctychen.github.io/FrontierHacks19" # the base hostname & protocol for your site
 
