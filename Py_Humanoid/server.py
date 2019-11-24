@@ -59,8 +59,8 @@ def action1(action1):
       thread = threading.Thread(target=stand)
       thread.start()
       return message + ' started' 
-   elif action1 == "bend":
-      message = "bend"
+   elif action1 == "waveLeft":
+      message = "waveLeft"
       thread = threading.Thread(target=waveLeft)
       thread.start()
       return message + ' started' 
