@@ -8,7 +8,7 @@ humanoid = Humanoid.Humanoid()
 
 @app.route('/')
 def index():
-   #return render_template('main.html')
+   return render_template('main.html')
    
 @app.route("/")
 def main():
@@ -16,7 +16,7 @@ def main():
       'message': ""
       }
    # Pass the template data into the template main.html and #return it to the user
-   #return message
+   return message
   
 def walkForward():
    humanoid.stand()
