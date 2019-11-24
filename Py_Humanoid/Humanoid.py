@@ -387,6 +387,7 @@ class Humanoid():
 
         # shuffling
 
+        rightElbow.rotateTo(160)
         rightShoulder.rotateTo(70)
         leftShoulder.rotateTo(180)
         time.sleep(0.275)
@@ -499,7 +500,57 @@ class Humanoid():
         leftShoulder.rotateTo(60)
         time.sleep(0.275)
 
-        
+        rightElbow.rotateTo(50)
+        rightShoulder.rotateTo(70)
+        time.sleep(0.1)
+        rightElbow.rotateTo(160)
+        rightShoulder.rotateTo(180)
+        time.sleep(0.1)
+        rightShould.rotateTo(0)
+        time.sleep(0.1)
+        leftShoulder.rotateTo(0)
+        rightShoulder.rotateTo(0)
+        time.sleep(0.5)
+
+        leftElbow.rotateTo(50)
+        leftShoulder.rotateTo(70)
+        time.sleep(0.275)
+        leftElbow.rotateTo(160)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+
+         leftShoulder.rotateTo(0)
+        time.sleep(0.55)
+        leftShoulder.rotateTo(60)
+        leftElbow.rotateTo(50)
+
+        time.sleep(0.55)
+
+        leftElbow.rotateTo(160)
+        rightShoulder.rotateTo(180)
+        time.sleep(0.55)
+        rightShoulder.rotateTo(70)
+        rightElbow.rotateTo(50)
+
+        time.sleep(0.55)
+
+        rightElbow.rotateTo(160)
+        leftShoulder.rotateTo(0)
+        time.sleep(0.5)
+        leftShoulder.rotateTo(60)
+        leftElbow.rotateTo(50)
+
+        time.sleep(0.55)
+
+        leftElbow.rotateTo(160)
+        rightShoulder.rotateTo(180)
+        time.sleep(0.55)
+        rightShoulder.rotateTo(70)
+        rightElbow.rotateTo(50)
+
+        time.sleep(0.55)
+
+
 
 
 
