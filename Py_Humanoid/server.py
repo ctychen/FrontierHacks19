@@ -8,7 +8,7 @@ humanoid = Humanoid.Humanoid()
 
 @app.route('/')
 def index():
-    return render_template('main.html')
+   return render_template('main.html')
    
 @app.route("/")
 def main():
@@ -193,13 +193,13 @@ def action1(action1):
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
       return message + ' started'
-    elif action1 == "closeRightElbow":
+   elif action1 == "closeRightElbow":
       message = "closeRightElbow"
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
       return message + ' started'
 
-    elif action1 == "raiseRightShoulder":
+   elif action1 == "raiseRightShoulder":
       message = "raiseRightShoulder"
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
