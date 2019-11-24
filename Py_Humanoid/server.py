@@ -216,7 +216,7 @@ def action1(action1):
       thread.start()
       return main.html  
 
-   elif action1 == "armHoms":
+   elif action1 == "armHome":
       message = "armHome"
       thread = threading.Thread(target=armHome)
       thread.start()
