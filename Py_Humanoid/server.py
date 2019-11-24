@@ -98,8 +98,8 @@ def TPose():
 def pushUp():
    humanoid.pushUp()
 
-# def rickRoll():
-#    humanoid.rickRoll()
+def dab():
+   humanoid.dab()
 
 
 @app.route("/<action1>")
@@ -245,11 +245,11 @@ def action1(action1):
       thread.start()
       return render_template('main.html') 
 
-   # elif action1 == "rickRoll":
-      # message = "rickRoll"
-      # thread = threading.Thread(target=rickRoll)
-      # thread.start()
-      # return render_template('main.html')
+   elif action1 == "dab":
+      message = "dab"
+      thread = threading.Thread(target=dab)
+      thread.start()
+      return render_template('main.html')
 
    else:
       message = ""

@@ -218,6 +218,22 @@ class Humanoid():
         rightElbow.rotateTo(160)
         leftElbow.rotateTo(160)
 
+    def dab(self):
+        rightShoulder.rotateTo(70)
+        rightWrist.rotateTo(50)
+        leftShoulder.rotateTo(0)
+        leftElbow.rotateTo(55)
+        leftWrist.rotateTo(50)
+
+        time.sleep(1)
+
+        rightWrist.rotateTo(100)
+        leftWrist.rotateTo(100)
+        rightElbow.rotateTo(160)
+        leftElbow.rotateTo(180)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(180)
+
    # def rickRoll(self):
         
 
