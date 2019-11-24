@@ -519,7 +519,7 @@ class Humanoid():
         leftShoulder.rotateTo(180)
         time.sleep(0.275)
 
-         leftShoulder.rotateTo(0)
+        leftShoulder.rotateTo(0)
         time.sleep(0.55)
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
