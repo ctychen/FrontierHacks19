@@ -47,7 +47,7 @@ class Humanoid():
 
         time.sleep(delay)
 
-        rightThigh.rotateTo(115)   #L ANKLE
+        rightThigh.rotateTo(125)   #L ANKLE
         rightKnee.rotateTo(115)   #L ANKLE
         leftThigh.rotateTo(135)   #L ANKLE
         leftKnee.rotateTo(135)   #L ANKLE
@@ -168,7 +168,7 @@ class Humanoid():
     def openRightClaw(self):
         rightHand.rotateTo(150)
 
-    def closeRightClawLeft(self):
+    def closeRightClaw(self):
         rightHand.rotateTo(0)
 
     def turnRightWristRight(self):
