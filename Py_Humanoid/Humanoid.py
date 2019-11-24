@@ -188,8 +188,6 @@ class Humanoid():
 
     def lowerRightShoulder(self):
         rightShoulder.rotateTo(0)
-    ``
-
 
     
 
