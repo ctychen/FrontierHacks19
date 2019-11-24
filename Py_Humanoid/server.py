@@ -101,6 +101,9 @@ def pushUp():
 def dab():
    humanoid.dab()
 
+def dance():
+   humanoid.dance()
+
 
 @app.route("/<action1>")
 def action1(action1):
@@ -248,6 +251,12 @@ def action1(action1):
    elif action1 == "dab":
       message = "dab"
       thread = threading.Thread(target=dab)
+      thread.start()
+      return render_template('main.html')
+
+   elif action1 == "dance":
+      message = "dance"
+      thread = threading.Thread(target=dance)
       thread.start()
       return render_template('main.html')
 
