@@ -25,7 +25,7 @@ rightWrist = Subsystem(2)
 leftHand = Subsystem(3)
 rightHand = Subsystem(1)
 
-delay = .2
+delay = .3
 
 class Humanoid():
 
