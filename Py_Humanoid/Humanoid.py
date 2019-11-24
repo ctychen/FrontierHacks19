@@ -54,7 +54,7 @@ class Humanoid():
         #
 
         rightKnee.rotateTo(120)   #L ANKLE
-        leftThigh.rotateTo(125)   #L ANKLE
+        leftThigh.rotateTo(125+20)   #L ANKLE
         # "back" =
         # "forward" =
         #start at 120
