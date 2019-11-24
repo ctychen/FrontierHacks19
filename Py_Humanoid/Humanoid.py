@@ -241,61 +241,61 @@ class Humanoid():
      #16 times one hand out and other hand going out and in
 
         leftShoulder.rotateTo(0)
-        time.sleep(0.2)
+        time.sleep(0.5)
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
 
-        time.sleep(0.2)
+        time.sleep(0.5)
 
         rightShoulder.rotateTo(180)
-        time.sleep(0.2)
+        time.sleep(0.5)
         rightShoulder.rotateTo(70)
         rightElbow.rotateTo(50)
 
-        time.sleep(0.2)
+        time.sleep(0.5)
 
         leftShoulder.rotateTo(0)
         time.sleep(0.2)
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
 
-        time.sleep(0.2)
+        time.sleep(0.5)
 
         rightShoulder.rotateTo(180)
-        time.sleep(0.2)
+        time.sleep(0.5)
         rightShoulder.rotateTo(70)
         rightElbow.rotateTo(50)
 
-        time.sleep(0.2)
+        time.sleep(0.5)
 
 
         leftShoulder.rotateTo(0)
-        time.sleep(0.2)
+        time.sleep(0.5)
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
 
-        time.sleep(0.2)
+        time.sleep(0.5)
 
         rightShoulder.rotateTo(180)
-        time.sleep(0.2)
+        time.sleep(0.5)
         rightShoulder.rotateTo(70)
         rightElbow.rotateTo(50)
 
-        time.sleep(0.2)
+        time.sleep(0.5)
 
         leftShoulder.rotateTo(0)
-        time.sleep(0.2)
+        time.sleep(0.5)
         leftShoulder.rotateTo(60)
         leftElbow.rotateTo(50)
 
-        time.sleep(0.2)
+        time.sleep(0.5)
 
         rightShoulder.rotateTo(180)
-        time.sleep(0.2)
+        time.sleep(0.5)
         rightShoulder.rotateTo(70)
         rightElbow.rotateTo(50)
 
-        time.sleep(0.2)
+        time.sleep(0.5)
 
 
         
