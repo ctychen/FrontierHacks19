@@ -202,7 +202,7 @@ class Humanoid():
         rightShoulder.rotateTo(0)
         leftShoulder.rotateTo(180)
 
-    def Tpose(self):
+    def TPose(self):
         rightShoulder.rotateTo(180)
         leftShoulder.rotateTo(0)
         rightElbow.rotateTo(55)
@@ -210,13 +210,13 @@ class Humanoid():
         rightWrist.rotateTo(100)
         leftWrist.rotateTo(50)
 
-    def pushUp(self)
-        for x in range :5:      
-            rightElbow.rotateTo(50)
-            leftElbow.rotateTo(50)
-            delay(1)
-            rightElbow.rotateTo(160)
-            leftElbow.rotateTo(160)
+    def pushUp(self):
+        # for x in range (5):      
+        rightElbow.rotateTo(50)
+        leftElbow.rotateTo(50)
+        time.sleep(1)
+        rightElbow.rotateTo(160)
+        leftElbow.rotateTo(160)
 
 
     

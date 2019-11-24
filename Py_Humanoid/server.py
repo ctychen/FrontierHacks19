@@ -92,6 +92,12 @@ def lowerRightShoulder():
 def armHome():
    humanoid.armHome()
 
+def TPose():
+   humanoid.armHome()
+
+def pushUp():
+   humanoid.pushUp()
+
 
 
 @app.route("/<action1>")
@@ -224,6 +230,18 @@ def action1(action1):
       thread = threading.Thread(target=armHome)
       thread.start()
       return main.html  
+
+   elif action1 == "TPose":
+      message = "TPose"
+      thread = threading.Thread(target=TPose)
+      thread.start()
+      return main.html 
+
+   elif action1 == "pushUp":
+      message = "pushUp"
+      thread = threading.Thread(target=pushUp)
+      thread.start()
+      return main.html 
 
    else:
       message = ""
