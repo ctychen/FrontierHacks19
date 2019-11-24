@@ -25,7 +25,7 @@ rightWrist = Subsystem(2)
 leftHand = Subsystem(3)
 rightHand = Subsystem(1)
 
-delay = 1
+delay = .5
 
 class Humanoid():
 
@@ -42,6 +42,7 @@ class Humanoid():
         print('standing')
 
     def walkForward(self):
+        stand()
         rightAnkle.rotateTo(90)   #L ANKLE
         leftAnkle.rotateTo(80)   #L ANKLE
 
