@@ -193,7 +193,7 @@ def action1(action1):
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
       return message + ' started'
-    elif action1 == "closeRightElbow":
+  elif action1 == "closeRightElbow":
       message = "closeRightElbow"
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
