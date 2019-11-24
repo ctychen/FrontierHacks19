@@ -46,7 +46,7 @@ class Humanoid():
 
         time.sleep(0.25)
 
-        rightThigh.rotateTo(95-20)   #L ANKLE
+        rightThigh.rotateTo(95+20)   #L ANKLE
         # "back" =
         # "forward" =
         #start at 120
