@@ -25,9 +25,10 @@ rightWrist = Subsystem(2)
 leftHand = Subsystem(3)
 rightHand = Subsystem(1)
 
-
+delay = 1
 
 class Humanoid():
+
 
     def stand(self):
         leftAnkle.rotateTo(100)   #L ANKLE
@@ -44,7 +45,7 @@ class Humanoid():
         rightAnkle.rotateTo(85)   #L ANKLE
         leftAnkle.rotateTo(75)   #L ANKLE
 
-        time.sleep(0.25)
+        time.sleep(delay)
 
         rightThigh.rotateTo(120)   #L ANKLE
         rightKnee.rotateTo(120)   #L ANKLE
@@ -52,24 +53,24 @@ class Humanoid():
      
         leftKnee.rotateTo(140)   #L ANKLE
 
-        time.sleep(0.25)
+        time.sleep(delay)
 
         rightAnkle.rotateTo(100)   #L ANKLE
         leftAnkle.rotateTo(100)   #L ANKLE
 
-        time.sleep(0.25)
+        time.sleep(delay)
 
         leftAnkle.rotateTo(130)   #L ANKLE
         rightAnkle.rotateTo(130)   #L ANKLE
 
-        time.sleep(0.25)
+        time.sleep(delay)
 
         leftThigh.rotateTo(100)   #L ANKLE
         leftKnee.rotateTo(100)  #L ANKLE
         rightThigh.rotateTo(90)   #L ANKLE
         rightKnee.rotateTo(90)   #L ANKLE
 
-        time.sleep(0.25)
+        time.sleep(delay)
 
         leftAnkle.rotateTo(100)   #L ANKLE
         rightAnkle.rotateTo(100)   #L ANKLE
