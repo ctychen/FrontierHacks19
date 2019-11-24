@@ -19,6 +19,7 @@ def main():
    return message
   
 def walkForward():
+   humanoid.stand()
    humanoid.walkForward()
 
 def turnLeft():
