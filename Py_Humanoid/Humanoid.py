@@ -143,10 +143,10 @@ class Humanoid():
         leftHand.rotateTo(0)
 
     def turnLeftWristRight(self):
-        leftWrist.rotateTo(50)
+        leftWrist.rotateTo(100)
 
     def turnLeftWristLeft(self):
-        leftWrist.rotateTo(100)
+        leftWrist.rotateTo(50)
 
     def openLeftElbow(self):
         leftElbow.rotateTo(160)
