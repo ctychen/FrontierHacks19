@@ -143,13 +143,13 @@ def action1(action1):
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
       return message + ' started'
-    elif action1 == "closeLeftElbow":
+   elif action1 == "closeLeftElbow":
       message = "closeLeftElbow"
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
       return message + ' started'
 
-    elif action1 == "raiseLeftShoulder":
+   elif action1 == "raiseLeftShoulder":
       message = "raiseLeftShoulder"
       thread = threading.Thread(target=openLeftClaw)
       thread.start()
