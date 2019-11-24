@@ -21,7 +21,6 @@ def main():
 def walkForward():
    humanoid.stand()
    humanoid.walkForward()
-   humanoid.walkForward()
 
 def turnLeft():
    humanoid.turnLeft()
