@@ -93,7 +93,7 @@ def armHome():
    humanoid.armHome()
 
 def TPose():
-   humanoid.armHome()
+   humanoid.TPose()
 
 def pushUp():
    humanoid.pushUp()
