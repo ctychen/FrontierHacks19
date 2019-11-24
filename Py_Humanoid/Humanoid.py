@@ -42,7 +42,7 @@ class Humanoid():
 
     def walkForward(self):
         rightAnkle.rotateTo(80)   #L ANKLE
-        leftAnkle.rotateTo(70)   #L ANKLE
+        leftAnkle.rotateTo(70-20)   #L ANKLE
 
         time.sleep(0.25)
 
@@ -54,7 +54,7 @@ class Humanoid():
         #
 
         rightKnee.rotateTo(120)   #L ANKLE
-        leftThigh.rotateTo(125+20)   #L ANKLE
+        leftThigh.rotateTo(125+40)   #L ANKLE
         # "back" =
         # "forward" =
         #start at 120
