@@ -209,6 +209,16 @@ class Humanoid():
         leftElbow.rotateTo(55)
         rightWrist.rotateTo(100)
         leftWrist.rotateTo(50)
+
+    def pushUp(self)
+        for x in range :5:      
+            rightElbow.rotateTo(50)
+            leftElbow.rotateTo(50)
+            delay(1)
+            rightElbow.rotateTo(160)
+            leftElbow.rotateTo(160)
+
+
     
 
     
