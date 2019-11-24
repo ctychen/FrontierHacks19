@@ -195,8 +195,8 @@ class Humanoid():
 # arms home
 
     def armHome(self):
-        rightWrist.rotateTo(50)
-        leftWrist.rotateTo(50)
+        rightWrist.rotateTo(35)
+        leftWrist.rotateTo(65)
         rightElbow.rotateTo(160)
         leftElbow.rotateTo(180)
         rightShoulder.rotateTo(0)
@@ -217,6 +217,9 @@ class Humanoid():
         time.sleep(1)
         rightElbow.rotateTo(160)
         leftElbow.rotateTo(160)
+
+    def rickRoll(self):
+        
 
 
     
