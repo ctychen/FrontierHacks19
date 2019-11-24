@@ -215,6 +215,13 @@ def action1(action1):
       thread = threading.Thread(target=lowerRightShoulder)
       thread.start()
       return main.html  
+
+   elif action1 == "armHoms":
+      message = "armHome"
+      thread = threading.Thread(target=armHome)
+      thread.start()
+      return main.html  
+
    else:
       message = ""
 
