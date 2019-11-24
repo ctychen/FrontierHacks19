@@ -25,7 +25,7 @@ rightWrist = Subsystem(2)
 leftHand = Subsystem(3)
 rightHand = Subsystem(1)
 
-delay = .3
+delay = .4
 
 class Humanoid():
 
@@ -60,8 +60,8 @@ class Humanoid():
 
         time.sleep(delay)
 
-        leftAnkle.rotateTo(125)   #L ANKLE
-        rightAnkle.rotateTo(125)   #L ANKLE
+        leftAnkle.rotateTo(130)   #L ANKLE
+        rightAnkle.rotateTo(130)   #L ANKLE
 
         time.sleep(delay)
 
