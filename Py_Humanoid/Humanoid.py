@@ -218,7 +218,7 @@ class Humanoid():
         rightElbow.rotateTo(160)
         leftElbow.rotateTo(160)
 
-    def rickRoll(self):
+   # def rickRoll(self):
         
 
 
