@@ -236,7 +236,7 @@ class Humanoid():
 
    # def rickRoll(self):
 
-   def dance(self):
+    def dance(self):
      #8times hands up and same hand out
      #16 times one hand out and other hand going out and in
 
