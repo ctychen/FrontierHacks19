@@ -202,6 +202,13 @@ class Humanoid():
         rightShoulder.rotateTo(0)
         leftShoulder.rotateTo(180)
 
+    def Tpose(self):
+        rightShoulder.rotateTo(180)
+        leftShoulder.rotateTo(0)
+        rightElbow.rotateTo(55)
+        leftElbow.rotateTo(55)
+        rightWrist.rotateTo(100)
+        leftWrist.rotateTo(50)
     
 
     
