@@ -385,6 +385,123 @@ class Humanoid():
         leftElbow.rotateTo(160)
         time.sleep(0.275)
 
+        # shuffling
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        rightShoulder.rotateTo(70)
+        leftShoulder.rotateTo(180)
+        time.sleep(0.275)
+        rightShoulder.rotateTo(0)
+        leftShoulder.rotateTo(60)
+        time.sleep(0.275)
+
+        
+
+
 
         
 
