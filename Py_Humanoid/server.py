@@ -89,6 +89,9 @@ def midRaiseRightShoulder():
 def lowerRightShoulder():
    humanoid.lowerRightShoulder()
 
+def armHome():
+   humanoid.armHome()
+
 
 
 @app.route("/<action1>")

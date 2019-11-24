@@ -149,19 +149,19 @@ class Humanoid():
         leftWrist.rotateTo(50)
 
     def openLeftElbow(self):
-        leftElbow.rotateTo(160)
-
-    def closeLeftElbow(self):
         leftElbow.rotateTo(50)
 
+    def closeLeftElbow(self):
+        leftElbow.rotateTo(160)
+
     def raiseLeftShoulder(self):
-        leftShoulder.rotateTo(180)
+        leftShoulder.rotateTo(0)
 
     def midRaiseLeftShoulder(self):
         leftShoulder.rotateTo(60)
 
     def lowerLeftShoulder(self):
-        leftShoulder.rotateTo(0)
+        leftShoulder.rotateTo(180)
 
 # Right side
     
@@ -178,10 +178,10 @@ class Humanoid():
         rightWrist.rotateTo(100)
 
     def openRightElbow(self):
-        rightElbow.rotateTo(160)
+        rightElbow.rotateTo(50)
 
     def closeRightElbow(self):
-        rightElbow.rotateTo(50)
+        rightElbow.rotateTo(160)
 
     def raiseRightShoulder(self):
         rightShoulder.rotateTo(180)
@@ -200,7 +200,7 @@ class Humanoid():
         rightElbow.rotateTo(50)
         leftElbow.rotateTo(50)
         rightShoulder.rotateTo(0)
-        leftShoulder.rotateTo(0)
+        leftShoulder.rotateTo(180)
 
     
 
